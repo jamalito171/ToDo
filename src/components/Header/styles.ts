@@ -25,6 +25,7 @@ export const styles = StyleSheet.create({
     input: {
         height: 54,
         width: '75%',
+        color: theme.colors.base.gray100,
         backgroundColor: theme.colors.base.gray500,
         borderRadius:5,
         padding: 16,
