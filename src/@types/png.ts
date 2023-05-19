@@ -1,0 +1,1 @@
+declare module '*.png' //Declaração de arquivos do tipo png para que typescript não acuse erro
