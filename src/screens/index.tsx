@@ -8,8 +8,8 @@ import { Empty } from "../components/Empty";
 import { uuid } from "../utils/uuid";
 
 export function HomeScreen() {
-    const [tasks, setTasks] = useState<TaskDTO[]>([])  
-    const [newTask, setNewTask] = useState(' ')
+     const [newTask, setNewTask] = useState(' ')
+     const [tasks, setTasks] = useState<TaskDTO[]>([])  
 
     function handleTaskAdd(){
       
